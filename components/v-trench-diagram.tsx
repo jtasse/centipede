@@ -142,15 +142,6 @@ export function VTrenchDiagram({ className }: VTrenchDiagramProps) {
       >
         Open air — runners stop here
       </text>
-      <text
-        x="36"
-        y="68"
-        fill="#5c564c"
-        fontSize="13"
-        fontFamily="ui-sans-serif, system-ui, sans-serif"
-      >
-        One wall of the ditch is the concrete itself
-      </text>
     </svg>
   )
 }
