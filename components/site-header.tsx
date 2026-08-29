@@ -6,6 +6,9 @@ export function SiteHeader() {
           Stolon Line
         </a>
         <nav className="hidden items-center gap-4 text-sm text-muted-foreground lg:flex">
+          <a href="#contents" className="hover:text-foreground">
+            On this page
+          </a>
           <a href="#why" className="hover:text-foreground">
             Why it wins
           </a>
@@ -29,6 +32,12 @@ export function SiteHeader() {
           </a>
         </nav>
         <div className="flex items-center gap-3 lg:hidden">
+          <a
+            href="#contents"
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            On this page
+          </a>
           <a
             href="#v-trench"
             className="text-sm font-medium text-primary hover:underline"

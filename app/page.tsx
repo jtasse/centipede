@@ -1,4 +1,5 @@
 import { DoseCalculator } from "@/components/dose-calculator"
+import { GuideToc } from "@/components/guide-toc"
 import { Hero } from "@/components/hero"
 import { HoursAndHabits } from "@/components/hours-and-habits"
 import { Playbook } from "@/components/playbook"
@@ -19,6 +20,7 @@ export default function Home() {
       <SiteHeader />
       <main className="flex-1">
         <Hero />
+        <GuideToc />
         <WhyItFails />
         <Playbook />
         <WhatIsVTrench />
