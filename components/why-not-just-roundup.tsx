@@ -65,11 +65,12 @@ export function WhyNotJustRoundup() {
             </h3>
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
               Wipe only what is already on the sidewalk. You are not doing that
-              so yellow grass is prettier to pull. You are killing the nodes so
-              they stop rooting in the joints. After they bleach, a rake takes
-              the thatch in one pass. Live stolons fight, snap, and leave nodes
-              behind. Stay 1–2 inches off the living edge, and prefer a wipe or
-              a shield over a misting sprayer.
+              so yellow grass is prettier to pull.{" "}
+              <a href="#wipe-why" className="font-medium text-primary hover:underline">
+                Kill the nodes, then rake once
+              </a>
+              . Stay 1–2 inches off the living edge, and prefer a wipe or a
+              shield over a misting sprayer.
             </p>
           </article>
         </div>
@@ -77,13 +78,13 @@ export function WhyNotJustRoundup() {
         <div className="mt-6 rounded-2xl bg-accent/15 p-5 ring-1 ring-accent/25 sm:p-6">
           <h3 className="font-heading text-2xl">It does not linger on the sidewalk</h3>
           <p className="mt-3 max-w-3xl leading-7">
-            A growth regulator has to land on living turf and move{" "}
-            <em>into the plant</em>. Spray on concrete is wasted product, not a
-            chemical moat. Reapply on the label interval — typically{" "}
-            <strong className="font-medium">every 8–12 weeks</strong> while
-            centipede is actively growing, about two or three times from spring
-            green-up through early fall. Make the last pass at least four weeks
-            before dormancy. Skip it on drought-stressed grass.
+            Same misconception, different bottle: a growth regulator is not a
+            chemical moat on the concrete either. It has to land on living turf
+            and move into the plant. Spray on the slab is wasted product.{" "}
+            <a href="#in-the-plant" className="font-medium text-primary hover:underline">
+              Where it lives, and the 8–12 week reapply cadence
+            </a>
+            .
           </p>
         </div>
       </div>

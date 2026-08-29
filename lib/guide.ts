@@ -68,7 +68,7 @@ export const methods: Method[] = [
       "Use a ready-to-use glyphosate product, or mix a concentrate exactly as that product’s label directs. Do not improvise a stronger mix.",
       "Load a sponge-on-a-stick, wick applicator, or 4-inch foam roller. You want contact, not mist.",
       "Wipe only runners and blades that are on the sidewalk or driveway. Stay 1–2 inches off living turf.",
-      "Keep people and pets off the treated slab until it is dry. Stolons yellow in a few days. Rake the dead thatch off so it cannot hide new nodes.",
+      "Keep people and pets off the treated slab until it is dry. Wait a few days. Do not kneel and tease them while they are still green — let them yellow, then rake, sweep, or blow the thatch so leftover nodes are not still alive in the joint.",
     ],
     watchouts: [
       "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a stolon still attached to the lawn. Keep the wipe on the slab.",

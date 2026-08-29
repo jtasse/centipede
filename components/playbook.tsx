@@ -132,14 +132,20 @@ export function Playbook() {
                         >
                           Why not Roundup the lawn edge with tape
                         </a>
+                        <a
+                          href="#in-the-plant"
+                          className="inline-flex text-sm font-medium text-primary hover:underline"
+                        >
+                          It does not linger on the sidewalk
+                        </a>
                       </div>
                     ) : null}
                     {method.id === "wipe" ? (
                       <a
-                        href="#tape"
+                        href="#wipe-why"
                         className="inline-flex text-sm font-medium text-primary hover:underline"
                       >
-                        Why wipe instead of only pulling — and why not tape the lawn
+                        Why wipe if you were going to pull them anyway
                       </a>
                     ) : null}
                     <dl className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
