@@ -17,7 +17,7 @@ export function Hero() {
             stolons walk over it, root in the joints, and do it again in about
             two weeks. A trimmer, a pretty edge, and Saturday on your knees all
             lose to that habit. The fix is an air gap, a wipe on the slab, a
-            growth-regulator band — or a raised strip you mow against.
+            6-inch growth-regulator strip — or a raised edge you mow against.
           </p>
           <div className="flex flex-wrap gap-3">
             <a

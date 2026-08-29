@@ -8,7 +8,7 @@ export function SiteFooter() {
           Pesticide notes are educational. The product label in your hand is
           the law: mix rates, protective equipment, rainfast times, and where
           you may apply. Growth-regulator figures follow published Edgeless
-          Concentrate directions for a 6-inch centipedegrass band and may
+          Concentrate directions for a 6-inch centipedegrass strip and may
           change — check the current label before you measure anything.
         </p>
       </div>

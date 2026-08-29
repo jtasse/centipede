@@ -53,7 +53,10 @@ export function HoursAndHabits() {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li>V-trench: a hard first afternoon, then three short recuts.</li>
               <li>Wipe: ten to twenty minutes, about monthly in peak heat.</li>
-              <li>Growth regulator: two or three bands, then almost no trimming.</li>
+              <li>
+                Growth regulator: two or three walks along a 6-inch strip, then
+                almost no trimming.
+              </li>
               <li>Mow strip: one weekend, then you mow the line with the deck.</li>
             </ul>
           </div>

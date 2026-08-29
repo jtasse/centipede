@@ -5,6 +5,7 @@ import { Playbook } from "@/components/playbook"
 import { Season } from "@/components/season"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
+import { WhatBandingMeans } from "@/components/what-banding-means"
 import { WhyItFails } from "@/components/why-it-fails"
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <WhyItFails />
         <Playbook />
+        <WhatBandingMeans />
         <DoseCalculator />
         <Season />
         <HoursAndHabits />

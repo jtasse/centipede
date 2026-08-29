@@ -19,17 +19,17 @@ export function DoseCalculator() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_1fr] lg:py-20">
         <div className="space-y-4">
           <p className="text-xs font-medium tracking-[0.22em] text-primary uppercase">
-            Band calculator
+            6-inch strip calculator
           </p>
           <h2 className="font-heading text-3xl text-balance sm:text-4xl">
-            How much growth regulator for your edge?
+            How much growth regulator for that ribbon?
           </h2>
           <p className="leading-7 text-muted-foreground">
             Edgeless Concentrate is labeled for centipedegrass at{" "}
             <strong className="text-foreground font-medium">
               0.13–0.23 fl oz per 500 linear feet
             </strong>{" "}
-            in a 6-inch band. That is a startlingly small number on a house lot.
+            of a 6-inch strip. That is a startlingly small number on a house lot.
             Measure with a syringe, not a bottle cap. Always follow the current
             product label — rates, PPE, timing, and yearly maximums win over
             anything on this page.

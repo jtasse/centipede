@@ -12,8 +12,8 @@ export function SiteHeader() {
           <a href="#playbook" className="hover:text-foreground">
             Playbook
           </a>
-          <a href="#dose" className="hover:text-foreground">
-            Band calculator
+          <a href="#banding" className="hover:text-foreground">
+            What banding is
           </a>
           <a href="#season" className="hover:text-foreground">
             Season

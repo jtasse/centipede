@@ -8,7 +8,7 @@ This app walks through the methods that change the interval:
 
 1. A **V-trench** air gap
 2. A **glyphosate wipe** on the concrete only
-3. A **growth-regulator band** (the landscaper trick, ~8–12 weeks)
+3. A **6-inch growth-regulator strip** (landscapers call this “banding”; ~8–12 weeks)
 4. A **raised mow strip**
 
 Plus a Southeast season calendar, a linear-feet calculator for labeled Edgeless Concentrate rates on centipede, and a reminder not to over-fertilize the edge.
