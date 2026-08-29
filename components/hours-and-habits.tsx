@@ -51,7 +51,13 @@ export function HoursAndHabits() {
               grass won anyway.
             </p>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>V-trench: a hard first afternoon, then three short recuts.</li>
+              <li>
+                <a href="#v-trench" className="font-medium text-primary hover:underline">
+                  V-trench
+                </a>
+                : a couple of hours the first time for 100–200 ft, then about 20
+                minutes, two or three recuts a year.
+              </li>
               <li>
                 Sponge on the slab: optional, ten to twenty minutes. Expect to
                 still pick the ones that cling.
@@ -60,7 +66,13 @@ export function HoursAndHabits() {
                 Growth regulator: two or three walks along a 6-inch strip, then
                 almost no trimming.
               </li>
-              <li>Mow strip: one weekend, then you mow the line with the deck.</li>
+              <li>
+                <a href="#mow-strip" className="font-medium text-primary hover:underline">
+                  Raised mow strip
+                </a>
+                : a weekend for the driveway apron or front walk, then you mow
+                the line with one wheel on the ribbon.
+              </li>
             </ul>
           </div>
         </div>

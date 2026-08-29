@@ -36,7 +36,16 @@ export function Playbook() {
             or a one-weekend build. Pick a goal. The two methods that fit stay
             open; the others stay in the list if you want them later. Painting
             the slab is optional cleanup. Stopping the flood at the lawn edge is
-            the job that actually changes the interval.
+            the job that actually changes the interval. If “V-trench” and
+            “raised mow strip” are just names, skip to{" "}
+            <a href="#v-trench" className="font-medium text-primary hover:underline">
+              what a V-trench is
+            </a>{" "}
+            and{" "}
+            <a href="#mow-strip" className="font-medium text-primary hover:underline">
+              what a raised mow strip is
+            </a>
+            — the work and the materials, not slogans.
           </p>
         </div>
 
@@ -141,6 +150,22 @@ export function Playbook() {
                           It does not linger on the sidewalk
                         </a>
                       </div>
+                    ) : null}
+                    {method.id === "trench" ? (
+                      <a
+                        href="#v-trench"
+                        className="inline-flex text-sm font-medium text-primary hover:underline"
+                      >
+                        What a V-trench actually is — tools, hours, and the recuts
+                      </a>
+                    ) : null}
+                    {method.id === "strip" ? (
+                      <a
+                        href="#mow-strip"
+                        className="inline-flex text-sm font-medium text-primary hover:underline"
+                      >
+                        What a raised mow strip actually is — materials and a weekend
+                      </a>
                     ) : null}
                     {method.id === "wipe" ? (
                       <a

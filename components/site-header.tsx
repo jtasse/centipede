@@ -12,14 +12,14 @@ export function SiteHeader() {
           <a href="#playbook" className="hover:text-foreground">
             Playbook
           </a>
+          <a href="#v-trench" className="hover:text-foreground">
+            Trench & strip
+          </a>
           <a href="#wipe-why" className="hover:text-foreground">
             The wipe
           </a>
           <a href="#banding" className="hover:text-foreground">
             Banding
-          </a>
-          <a href="#in-the-plant" className="hover:text-foreground">
-            Reapply
           </a>
           <a href="#tape" className="hover:text-foreground">
             Why not Roundup
@@ -30,16 +30,16 @@ export function SiteHeader() {
         </nav>
         <div className="flex items-center gap-3 lg:hidden">
           <a
+            href="#v-trench"
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            Trench
+          </a>
+          <a
             href="#wipe-why"
             className="text-sm font-medium text-primary hover:underline"
           >
             The wipe
-          </a>
-          <a
-            href="#tape"
-            className="text-sm font-medium text-primary hover:underline"
-          >
-            Why not Roundup
           </a>
         </div>
       </div>

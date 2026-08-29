@@ -18,12 +18,28 @@ export function WhyItFails() {
             why borders are easier than with bermudagrass. Easier is not the
             same as easy. The runners still climb a low wall, and research on
             edging walls found that even a 5 cm barrier does not fully stop
-            them. You need a gap, slower growth, or a cliff high enough that
-            they quit. Painting what is already on the slab is optional cleanup
-            — it does not stop the flood.
+            them. You need a{" "}
+            <a href="#v-trench" className="font-medium text-primary hover:underline">
+              gap
+            </a>
+            , slower growth, or a{" "}
+            <a href="#mow-strip" className="font-medium text-primary hover:underline">
+              cliff high enough
+            </a>{" "}
+            that they quit. Painting what is already on the slab is optional
+            cleanup — it does not stop the flood.
           </p>
-          <figure className="overflow-hidden rounded-2xl ring-1 ring-foreground/10">
-            <StolonDiagram variant="gap" className="h-auto w-full" />
+          <figure className="space-y-3">
+            <div className="overflow-hidden rounded-2xl ring-1 ring-foreground/10">
+              <StolonDiagram variant="gap" className="h-auto w-full" />
+            </div>
+            <figcaption className="px-1 text-sm text-muted-foreground">
+              That gap is a{" "}
+              <a href="#v-trench" className="font-medium text-primary hover:underline">
+                V-trench
+              </a>
+              : a real ditch, not a pretty trimmer line.
+            </figcaption>
           </figure>
         </div>
         <ol className="space-y-4">

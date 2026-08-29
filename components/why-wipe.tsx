@@ -132,11 +132,14 @@ export function WhyWipe() {
             None of these is a slam dunk if the bottleneck is volume on the
             slab. It is fair to skip the chemical and spend the effort on
             stopping the flood: a{" "}
-            <a href="#playbook" className="font-medium text-primary hover:underline">
+            <a href="#v-trench" className="font-medium text-primary hover:underline">
               V-trench
             </a>
-            , a 6-inch growth-regulator strip on the living lawn, or a raised
-            mow strip. The wipe is optional. It is not the main trick.
+            , a 6-inch growth-regulator strip on the living lawn, or a{" "}
+            <a href="#mow-strip" className="font-medium text-primary hover:underline">
+              raised mow strip
+            </a>
+            . The wipe is optional. It is not the main trick.
           </p>
         </div>
 
@@ -193,8 +196,15 @@ export function WhyWipe() {
 
         <p className="mt-8 max-w-3xl leading-7 text-muted-foreground">
           If pulling is already the Saturday, you do not owe the sponge a try.
-          New runners will still walk over from the lawn until you put an air
-          gap, a 6-inch growth-regulator strip, or a raised edge in their way.
+          New runners will still walk over from the lawn until you put an{" "}
+          <a href="#v-trench" className="font-medium text-primary hover:underline">
+            air gap
+          </a>
+          , a 6-inch growth-regulator strip, or a{" "}
+          <a href="#mow-strip" className="font-medium text-primary hover:underline">
+            raised edge
+          </a>{" "}
+          in their way.
           That is the work that changes the two-week interval. The wipe is a
           side job, if you want it.
         </p>

@@ -19,10 +19,16 @@ export function Hero() {
             or twenty that just lie there. The two-week fight is the flood of
             runners, not a sidewalk full of new plants. A trimmer, a pretty
             edge, and Saturday on your knees all lose to that volume. The real
-            work is stopping them at the lawn edge: an air gap, a 6-inch
-            growth-regulator strip, or a raised edge you mow against. Painting
-            Roundup onto what is already on the slab is optional. It does not
-            unglue the stuck ones, and it does not stop the next wave.
+            work is stopping them at the lawn edge: an{" "}
+            <a href="#v-trench" className="font-medium text-primary hover:underline">
+              air gap
+            </a>
+            , a 6-inch growth-regulator strip, or a{" "}
+            <a href="#mow-strip" className="font-medium text-primary hover:underline">
+              raised edge you mow against
+            </a>
+            . Painting Roundup onto what is already on the slab is optional. It
+            does not unglue the stuck ones, and it does not stop the next wave.
           </p>
           <div className="flex flex-wrap gap-3">
             <a
@@ -30,6 +36,12 @@ export function Hero() {
               className="inline-flex h-10 items-center rounded-lg bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/85"
             >
               Pick a method
+            </a>
+            <a
+              href="#v-trench"
+              className="inline-flex h-10 items-center rounded-lg border border-border bg-card px-4 text-sm font-medium hover:bg-muted"
+            >
+              What is a V-trench
             </a>
             <a
               href="#why"

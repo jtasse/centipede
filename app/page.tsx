@@ -7,6 +7,8 @@ import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { WhatBandingMeans } from "@/components/what-banding-means"
 import { WhatIsPgr } from "@/components/what-is-pgr"
+import { WhatIsMowStrip } from "@/components/what-is-mow-strip"
+import { WhatIsVTrench } from "@/components/what-is-v-trench"
 import { WhyWipe } from "@/components/why-wipe"
 import { WhyNotJustRoundup } from "@/components/why-not-just-roundup"
 import { WhyItFails } from "@/components/why-it-fails"
@@ -19,6 +21,8 @@ export default function Home() {
         <Hero />
         <WhyItFails />
         <Playbook />
+        <WhatIsVTrench />
+        <WhatIsMowStrip />
         <WhyWipe />
         <WhatBandingMeans />
         <WhatIsPgr />
