@@ -15,6 +15,9 @@ export function SiteHeader() {
           <a href="#banding" className="hover:text-foreground">
             Banding
           </a>
+          <a href="#in-the-plant" className="hover:text-foreground">
+            Reapply
+          </a>
           <a href="#tape" className="hover:text-foreground">
             Why not Roundup
           </a>

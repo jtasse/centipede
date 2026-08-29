@@ -3,7 +3,7 @@ import { pgrActives, pgrVsGlyphosate } from "@/lib/guide"
 
 export function WhatIsPgr() {
   return (
-    <section id="regulator" className="border-b border-border">
+    <section id="regulator" className="scroll-mt-14 border-b border-border">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:py-20">
         <div className="max-w-3xl space-y-5">
           <p className="text-xs font-medium tracking-[0.22em] text-primary uppercase">
@@ -64,7 +64,7 @@ export function WhatIsPgr() {
 
         <aside
           id="in-the-plant"
-          className="mt-8 rounded-2xl bg-card p-5 ring-1 ring-foreground/10 sm:p-6"
+          className="mt-8 scroll-mt-20 rounded-2xl bg-card p-5 ring-1 ring-foreground/10 sm:p-6"
         >
           <h3 className="font-heading text-2xl">
             It does not linger on the sidewalk.
