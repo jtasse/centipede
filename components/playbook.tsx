@@ -119,12 +119,20 @@ export function Playbook() {
                   <div className="space-y-5 border-t border-border px-5 py-5 sm:px-6">
                     <p className="leading-7">{method.why}</p>
                     {method.id === "pgr" ? (
-                      <a
-                        href="#banding"
-                        className="inline-flex text-sm font-medium text-primary hover:underline"
-                      >
-                        See what the 6-inch strip looks like
-                      </a>
+                      <div className="flex flex-wrap gap-x-4 gap-y-2">
+                        <a
+                          href="#banding"
+                          className="inline-flex text-sm font-medium text-primary hover:underline"
+                        >
+                          See what the 6-inch strip looks like
+                        </a>
+                        <a
+                          href="#regulator"
+                          className="inline-flex text-sm font-medium text-primary hover:underline"
+                        >
+                          How a growth regulator differs from Roundup
+                        </a>
+                      </div>
                     ) : null}
                     <dl className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
                       <div>

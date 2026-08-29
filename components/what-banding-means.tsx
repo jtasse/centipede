@@ -28,7 +28,11 @@ export function WhatBandingMeans() {
             to stop stretching, so stolons do not race onto the slab for roughly
             8–12 weeks. The grass stays, often a little darker. You still have
             to trim or wipe whatever is already on the concrete first. This only
-            slows what grows next.
+            slows what grows next.{" "}
+            <a href="#regulator" className="font-medium text-primary hover:underline">
+              What is in the bottle, exactly
+            </a>
+            .
           </p>
           <ol className="space-y-3 text-sm leading-6">
             <li className="flex gap-3">

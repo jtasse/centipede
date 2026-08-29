@@ -5,7 +5,7 @@ export function SiteHeader() {
         <a href="#top" className="font-heading text-lg tracking-tight">
           Stolon Line
         </a>
-        <nav className="hidden items-center gap-6 text-sm text-muted-foreground sm:flex">
+        <nav className="hidden items-center gap-4 text-sm text-muted-foreground lg:flex">
           <a href="#why" className="hover:text-foreground">
             Why it wins
           </a>
@@ -13,17 +13,20 @@ export function SiteHeader() {
             Playbook
           </a>
           <a href="#banding" className="hover:text-foreground">
-            What banding is
+            Banding
+          </a>
+          <a href="#regulator" className="hover:text-foreground">
+            Not Roundup
           </a>
           <a href="#season" className="hover:text-foreground">
             Season
           </a>
         </nav>
         <a
-          href="#playbook"
-          className="text-sm font-medium text-primary hover:underline sm:hidden"
+          href="#regulator"
+          className="text-sm font-medium text-primary hover:underline lg:hidden"
         >
-          Skip to methods
+          What’s a PGR?
         </a>
       </div>
     </header>

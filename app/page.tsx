@@ -6,6 +6,7 @@ import { Season } from "@/components/season"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { WhatBandingMeans } from "@/components/what-banding-means"
+import { WhatIsPgr } from "@/components/what-is-pgr"
 import { WhyItFails } from "@/components/why-it-fails"
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <WhyItFails />
         <Playbook />
         <WhatBandingMeans />
+        <WhatIsPgr />
         <DoseCalculator />
         <Season />
         <HoursAndHabits />

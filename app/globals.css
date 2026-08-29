@@ -91,6 +91,9 @@
     color-scheme: light;
     scroll-behavior: smooth;
   }
+  [id] {
+    scroll-margin-top: 4.5rem;
+  }
   body {
     @apply bg-background font-sans text-foreground;
     background-image:

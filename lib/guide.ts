@@ -249,7 +249,7 @@ export const months = [
     id: 8,
     name: "Aug",
     title: "Still peak",
-    body: "If you are exhausted, you are on schedule for untreated centipede. Wipe and trench now. Band a PGR if the grass is not drought-stressed.",
+    body: "If you are exhausted, you are on schedule for untreated centipede. Wipe and trench now. Spray a 6-inch growth-regulator strip if the grass is not drought-stressed.",
   },
   {
     id: 9,
@@ -289,6 +289,49 @@ export const fertilityNotes = [
   {
     title: "Water the lawn, not the slab",
     body: "A rotor that soaks the driveway keeps edge nodes alive. Shift heads so the last 6 inches of turf are the wet edge, not the concrete.",
+  },
+]
+
+export const pgrVsGlyphosate = [
+  {
+    label: "Job",
+    regulator: "Slow stretching",
+    glyphosate: "Kill the plant",
+  },
+  {
+    label: "How it works",
+    regulator:
+      "Blocks gibberellin, the hormone that makes cells get longer",
+    glyphosate:
+      "Blocks an enzyme plants need to make protein; the plant starves",
+  },
+  {
+    label: "What you see",
+    regulator: "Still green, often darker, internodes stay short",
+    glyphosate: "Yellow in days, then dead thatch",
+  },
+  {
+    label: "Where it belongs on this job",
+    regulator: "A 6-inch living ribbon of lawn next to the concrete",
+    glyphosate: "Only grass that is already sitting on the slab",
+  },
+  {
+    label: "Does the lawn stay?",
+    regulator: "Yes. You want that edge alive.",
+    glyphosate: "No. If it hits the lawn, you own a brown strip.",
+  },
+]
+
+export const pgrActives = [
+  {
+    name: "Trinexapac-ethyl",
+    also: "Primo Maxx and similar",
+    job: "Stops a late step in making gibberellin. The usual whole-turf slowdown chemical on golf courses.",
+  },
+  {
+    name: "Flurprimidol",
+    also: "Cutless and the other half of Edgeless",
+    job: "Stops an earlier step in the same hormone pathway. Taken up by roots as well as leaves.",
   },
 ]
 
