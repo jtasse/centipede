@@ -52,7 +52,10 @@ export function HoursAndHabits() {
             </p>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li>V-trench: a hard first afternoon, then three short recuts.</li>
-              <li>Wipe: ten to twenty minutes, about monthly in peak heat.</li>
+              <li>
+                Sponge on the slab: ten to twenty minutes, about monthly in peak
+                heat.
+              </li>
               <li>
                 Growth regulator: two or three walks along a 6-inch strip, then
                 almost no trimming.

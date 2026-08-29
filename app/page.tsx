@@ -19,10 +19,10 @@ export default function Home() {
         <Hero />
         <WhyItFails />
         <Playbook />
+        <WhyWipe />
         <WhatBandingMeans />
         <WhatIsPgr />
         <WhyNotJustRoundup />
-        <WhyWipe />
         <DoseCalculator />
         <Season />
         <HoursAndHabits />

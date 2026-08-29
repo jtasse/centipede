@@ -16,8 +16,9 @@ export function Hero() {
             Centipede does not grow <em>up</em> onto the sidewalk. Surface
             stolons walk over it, root in the joints, and do it again in about
             two weeks. A trimmer, a pretty edge, and Saturday on your knees all
-            lose to that habit. The fix is an air gap, a wipe on the slab, a
-            6-inch growth-regulator strip — or a raised edge you mow against.
+            lose to that habit. The fix is an air gap, Roundup dabbed onto the
+            runners sitting on the slab, a 6-inch growth-regulator strip — or a
+            raised edge you mow against.
           </p>
           <div className="flex flex-wrap gap-3">
             <a

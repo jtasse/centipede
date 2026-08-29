@@ -7,7 +7,7 @@ Centipede does not grow up onto the slab. Surface stolons crawl over it, root in
 This app walks through the methods that change the interval:
 
 1. A **V-trench** air gap
-2. A **glyphosate wipe** on the concrete only
+2. **Glyphosate dabbed onto the runners on the concrete** (a sponge, foam roller, or wick — landscapers call this a wipe; it is not a spray)
 3. A **6-inch growth-regulator strip** (landscapers call this “banding”; ~8–12 weeks)
 4. A **raised mow strip**
 

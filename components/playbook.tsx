@@ -145,7 +145,7 @@ export function Playbook() {
                         href="#wipe-why"
                         className="inline-flex text-sm font-medium text-primary hover:underline"
                       >
-                        Why wipe if you were going to pull them anyway
+                        Why a sponge instead of pulling them green
                       </a>
                     ) : null}
                     <dl className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">

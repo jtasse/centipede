@@ -54,24 +54,25 @@ export const methods: Method[] = [
   {
     id: "wipe",
     number: "02",
-    name: "Wipe the slab, don’t spray the lawn",
-    headline: "Kill only the grass that is already on the concrete.",
+    name: "Paint the runners on the slab",
+    headline:
+      "Dab glyphosate with a sponge or roller — not a mist. Landscapers call this a wipe.",
     time: "10–20 minutes",
     cadence: "Monthly in peak summer, then as needed",
     chemicals: true,
     permanence: "season",
     effort: "low",
     bestFor: "Fastest relief when the sidewalk is already covered",
-    why: "Hand-pulling works, which is why you have been doing it, but you are racing summer elongation. A glyphosate wipe on a sponge, wick bottle, or small paint roller hits the same stolons in minutes. You are not wiping so yellow grass is nicer to pull. You are killing the nodes so they stop rooting in the joints. After they bleach, a rake takes the thatch in one pass. Live stolons fight, snap, and leave nodes behind.",
+    why: "Hand-pulling works, which is why you have been doing it, but you are racing summer elongation. A wipe is not a brand and not a special tool. Put glyphosate — Roundup or a generic — on a sponge, a wick bottle, or a small foam roller, then dab it onto the grass already sitting on the sidewalk. You are wetting the runners by contact, like painting a fence, not spraying a mist into the air. That hits the same stolons in minutes. You are not doing this so yellow grass is nicer to pull. You are killing the nodes so they stop rooting in the joints. After they bleach, a rake takes the thatch in one pass. Live stolons fight, snap, and leave nodes behind.",
     steps: [
       "Mow or trim so you can see the line where lawn meets concrete.",
       "Use a ready-to-use glyphosate product, or mix a concentrate exactly as that product’s label directs. Do not improvise a stronger mix.",
-      "Load a sponge-on-a-stick, wick applicator, or 4-inch foam roller. You want contact, not mist.",
-      "Wipe only runners and blades that are on the sidewalk or driveway. Stay 1–2 inches off living turf.",
+      "Load a sponge-on-a-stick, wick applicator, or 4-inch foam roller. You want the chemical on the grass, not floating in the air.",
+      "Dab only runners and blades that are on the sidewalk or driveway. Stay 1–2 inches off living turf.",
       "Keep people and pets off the treated slab until it is dry. Wait a few days. Do not kneel and tease them while they are still green — let them yellow, then rake, sweep, or blow the thatch so leftover nodes are not still alive in the joint.",
     ],
     watchouts: [
-      "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a stolon still attached to the lawn. Keep the wipe on the slab.",
+      "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a stolon still attached to the lawn. Keep the sponge on the slab.",
       "Centipede is sensitive. Drift onto the lawn is how a tidy edge becomes a dead strip.",
       "Read the current label for rainfast times, mix rates, and personal protective equipment. This page is not a substitute for the label.",
     ],
@@ -95,7 +96,7 @@ export const methods: Method[] = [
     bestFor: "Long sidewalks and driveways where trimming is the real chore",
     why: "“Banding” is landscaper shorthand for wetting a 6-inch strip of living turf next to the hardscape — not treating the whole yard, and not coating the sidewalk. Products such as Edgeless (flurprimidol + trinexapac-ethyl) are labeled for that strip on centipedegrass. They are absorbed by leaves, stems, and (for flurprimidol) roots, then block the hormone that makes stems elongate. The grass stays green. It just stops racing over the slab. Rain that washes overspray off the concrete is wasted product, not a chemical barrier. Trim first, then spray the ribbon. Repeat every 8–12 weeks while it is growing — typically two or three times from spring green-up through early fall — and stop at least four weeks before dormancy.",
     steps: [
-      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete — that is a glyphosate wipe.",
+      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete — dab glyphosate on those runners with a sponge.",
       "Apply only to actively growing, unstressed centipede. Skip it during drought, disease, or right after sodding. Start after spring green-up, not before.",
       "Spray a 6-inch ribbon of grass along the hardscape with a single-nozzle sprayer, following the product label for centipedegrass rates and calibration. Aim at turf, not the slab.",
       "Keep spray off beds, shrubs, and vegetable gardens. A marking dye helps you see the strip and avoid drift.",
@@ -107,7 +108,7 @@ export const methods: Method[] = [
       "Homeowner quantities are tiny. Measuring milliliters for a few hundred feet of edge is normal — do not ‘round up’ the concentrate.",
       "Treated turf may look darker for several weeks. That is expected, not damage.",
       "The Edgeless Concentrate yearly maximum is 350 fl oz per acre (8 fl oz per 1,000 sq ft). Do not add extra passes to ‘make it last.’",
-      "This is a professional-style product. If you cannot follow the label’s sprayer calibration, hire a lawn service to spray the 6-inch strip, or use the trench and wipe instead.",
+      "This is a professional-style product. If you cannot follow the label’s sprayer calibration, hire a lawn service to spray the 6-inch strip, or use the trench and a sponge on the slab instead.",
     ],
     tools: [
       "Turf growth regulator labeled for a 6-inch edging strip (e.g. Edgeless)",
@@ -133,7 +134,7 @@ export const methods: Method[] = [
       "Set steel, brick, or a poured concrete ribbon so the top is 1–2 inches above the finished lawn height.",
       "Keep a small air gap between the new strip and the old concrete, or cut a V on the lawn side. A flush joint is a bridge.",
       "Backfill and compact. Do not leave a soil ramp the stolons can walk up.",
-      "Mow with one wheel on the strip. Spot-wipe anything that still tries to climb.",
+      "Mow with one wheel on the strip. Dab glyphosate on anything that still tries to climb.",
     ],
     watchouts: [
       "Loose gravel next to the lawn is a trap. Stolons root in it and you will be weeding rock instead of grass.",
@@ -159,10 +160,10 @@ export const goals: {
   {
     id: "this-weekend",
     label: "I need the sidewalk back this weekend",
-    blurb: "Wipe what is on the slab, then cut a real trench so it cannot walk right back.",
+    blurb: "Paint the runners on the slab, then cut a real trench so it cannot walk right back.",
     recommended: ["wipe", "trench"],
     firstMove:
-      "Do the wipe today. Cut the V-trench as soon as the soil is soft. That pairing ends the two-week panic without waiting on a product shipment.",
+      "Dab the runners today with a sponge or roller. Cut the V-trench as soon as the soil is soft. That pairing ends the two-week panic without waiting on a product shipment.",
   },
   {
     id: "no-chem",
@@ -175,10 +176,10 @@ export const goals: {
   {
     id: "least-work",
     label: "Least work all summer",
-    blurb: "Spray a 6-inch growth-regulator strip, then a monthly wipe for stragglers.",
+    blurb: "Spray a 6-inch growth-regulator strip, then dab stragglers on the concrete about once a month.",
     recommended: ["pgr", "wipe"],
     firstMove:
-      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator on the grass along the concrete — not on the slab. Plan on 8–12 weeks, then another pass. Keep a wick bottle by the garage for the few stolons that still hop the slab in July and August.",
+      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator on the grass along the concrete — not on the slab. Plan on 8–12 weeks, then another pass. Keep a sponge or wick bottle by the garage for the few stolons that still hop the slab in July and August.",
   },
   {
     id: "permanent",
@@ -234,13 +235,13 @@ export const months = [
     id: 5,
     name: "May",
     title: "Runners wake up",
-    body: "Spot-wipe anything already on concrete. Recut the trench if spring rains slumped it.",
+    body: "Dab glyphosate on anything already on concrete. Recut the trench if spring rains slumped it.",
   },
   {
     id: 6,
     name: "Jun",
     title: "Peak season starts",
-    body: "This is where the two-week cycle begins. Monthly wipes and a maintained trench beat heroic pulling. If April was the first growth-regulator pass, the 8–12 week reapply window is opening.",
+    body: "This is where the two-week cycle begins. A monthly sponge pass and a maintained trench beat heroic pulling. If April was the first growth-regulator pass, the 8–12 week reapply window is opening.",
   },
   {
     id: 7,
@@ -252,7 +253,7 @@ export const months = [
     id: 8,
     name: "Aug",
     title: "Still peak",
-    body: "If you are exhausted, you are on schedule for untreated centipede. Wipe and trench now. Spray a 6-inch growth-regulator strip if the grass is not drought-stressed.",
+    body: "If you are exhausted, you are on schedule for untreated centipede. Paint the slab and recut the trench now. Spray a 6-inch growth-regulator strip if the grass is not drought-stressed.",
   },
   {
     id: 9,
@@ -323,14 +324,14 @@ export const pgrVsGlyphosate = [
     regulator:
       "Into the grass you sprayed. Not a residue coating on the sidewalk.",
     glyphosate:
-      "Into the stolons you wipe on the slab. Also not a pavement residual.",
+      "Into the stolons you paint on the slab. Also not a pavement residual.",
   },
   {
     label: "How long it lasts",
     regulator:
       "About 8–12 weeks in the plant. Reapply 2–3 times from green-up through early fall.",
     glyphosate:
-      "Kills what you wipe. Does not slow the lawn behind the edge.",
+      "Kills what you dab on the concrete. Does not slow the lawn behind the edge.",
   },
   {
     label: "Does the lawn stay?",

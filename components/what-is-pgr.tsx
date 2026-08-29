@@ -78,9 +78,9 @@ export function WhatIsPgr() {
           <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
             Rain will wash any overspray off the concrete. That product is
             wasted. It is not a chemical barrier sitting on the pavement waiting
-            to stop the next runner. Grass already sitting on the slab is a{" "}
-            <a href="#playbook" className="font-medium text-primary hover:underline">
-              glyphosate wipe
+            to stop the next runner. Grass already sitting on the slab is{" "}
+            <a href="#wipe-why" className="font-medium text-primary hover:underline">
+              glyphosate on a sponge
             </a>
             , not a growth-regulator job.
           </p>

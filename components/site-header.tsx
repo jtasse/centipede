@@ -12,6 +12,9 @@ export function SiteHeader() {
           <a href="#playbook" className="hover:text-foreground">
             Playbook
           </a>
+          <a href="#wipe-why" className="hover:text-foreground">
+            Dab it on
+          </a>
           <a href="#banding" className="hover:text-foreground">
             Banding
           </a>
@@ -25,12 +28,20 @@ export function SiteHeader() {
             Season
           </a>
         </nav>
-        <a
-          href="#tape"
-          className="text-sm font-medium text-primary hover:underline lg:hidden"
-        >
-          Why not Roundup
-        </a>
+        <div className="flex items-center gap-3 lg:hidden">
+          <a
+            href="#wipe-why"
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            Dab it on
+          </a>
+          <a
+            href="#tape"
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            Why not Roundup
+          </a>
+        </div>
       </div>
     </header>
   )

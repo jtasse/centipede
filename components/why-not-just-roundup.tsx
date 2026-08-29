@@ -28,10 +28,10 @@ export function WhyNotJustRoundup() {
             leaves gaps in the canopy. Pulling it up rips grass. A stiff
             cardboard or plastic shield is the real painter’s-tape idea — and it
             belongs on the{" "}
-            <a href="#playbook" className="font-medium text-primary hover:underline">
-              wipe
+            <a href="#wipe-why" className="font-medium text-primary hover:underline">
+              sponge job
             </a>
-            , when you are treating runners already sitting on concrete, not as
+            , when you are painting runners already sitting on concrete, not as
             a way to Roundup a living 6-inch lawn edge.
           </p>
         </div>
@@ -64,13 +64,13 @@ export function WhyNotJustRoundup() {
               Roundup still has a job: the slab
             </h3>
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
-              Wipe only what is already on the sidewalk. You are not doing that
+              Dab only what is already on the sidewalk. You are not doing that
               so yellow grass is prettier to pull.{" "}
               <a href="#wipe-why" className="font-medium text-primary hover:underline">
                 Kill the nodes, then rake once
               </a>
-              . Stay 1–2 inches off the living edge, and prefer a wipe or a
-              shield over a misting sprayer.
+              . Stay 1–2 inches off the living edge, and prefer a sponge, a
+              foam roller, or a shield over a misting sprayer.
             </p>
           </article>
         </div>

@@ -37,7 +37,8 @@ export function DoseCalculator() {
           <p className="text-sm leading-6 text-muted-foreground">
             The label also asks for a calibrated single-nozzle sprayer delivering
             20 fl oz of spray mix per minute. If you cannot do that, skip the
-            homemade mix and either hire it out or use the wipe and trench.
+            homemade mix and either hire it out or use a sponge on the slab and a
+            trench.
           </p>
         </div>
 
