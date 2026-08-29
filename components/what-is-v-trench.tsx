@@ -2,7 +2,7 @@ import { VTrenchDiagram } from "@/components/v-trench-diagram"
 
 export function WhatIsVTrench() {
   return (
-    <section id="v-trench" className="scroll-mt-14 border-b border-border">
+    <section id="v-trench" className="scroll-mt-20 border-b border-border">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="space-y-5">

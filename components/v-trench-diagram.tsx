@@ -76,9 +76,9 @@ export function VTrenchDiagram({ className }: VTrenchDiagramProps) {
 
       <line
         x1="268"
-        y1="78"
+        y1="102"
         x2="318"
-        y2="78"
+        y2="102"
         stroke="#5c564c"
         strokeWidth="1.5"
         markerStart="url(#vTrenchArrow)"
@@ -86,7 +86,7 @@ export function VTrenchDiagram({ className }: VTrenchDiagramProps) {
       />
       <text
         x="293"
-        y="68"
+        y="92"
         textAnchor="middle"
         fill="#5c564c"
         fontSize="13"

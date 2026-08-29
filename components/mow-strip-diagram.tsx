@@ -10,6 +10,28 @@ export function MowStripDiagram({ className }: MowStripDiagramProps) {
       className={className}
       aria-label="Side view of a raised hard ribbon along a sidewalk. The strip sits one to two inches above the grass. A mower wheel rolls on it. A finger-width air gap sits between the new strip and the old concrete."
     >
+      <defs>
+        <pattern
+          id="mowLawnDots"
+          width="18"
+          height="18"
+          patternUnits="userSpaceOnUse"
+        >
+          <circle cx="4" cy="5" r="1.4" fill="#2f471c" />
+          <circle cx="12" cy="12" r="1.2" fill="#4d6b32" />
+        </pattern>
+        <marker
+          id="mowStripArrow"
+          markerWidth="8"
+          markerHeight="8"
+          refX="4"
+          refY="4"
+          orient="auto"
+        >
+          <path d="M1 1 L7 4 L1 7 Z" fill="#5c564c" />
+        </marker>
+      </defs>
+
       <rect width="720" height="400" fill="#efe6d2" />
 
       <rect x="0" y="236" width="720" height="164" fill="#c9b492" />
@@ -31,16 +53,6 @@ export function MowStripDiagram({ className }: MowStripDiagramProps) {
         <ellipse cx="56" cy="86" rx="20" ry="20" fill="#6e6e6e" />
         <ellipse cx="56" cy="86" rx="7" ry="7" fill="#c5c5c5" />
         <rect x="49" y="24" width="14" height="32" rx="4" fill="#5c564c" />
-        <text
-          x="56"
-          y="16"
-          textAnchor="middle"
-          fill="#5c564c"
-          fontSize="12"
-          fontFamily="ui-sans-serif, system-ui, sans-serif"
-        >
-          Mower wheel
-        </text>
       </g>
 
       <path
@@ -69,27 +81,25 @@ export function MowStripDiagram({ className }: MowStripDiagramProps) {
         </g>
       ))}
 
-      <defs>
-        <pattern
-          id="mowLawnDots"
-          width="18"
-          height="18"
-          patternUnits="userSpaceOnUse"
-        >
-          <circle cx="4" cy="5" r="1.4" fill="#2f471c" />
-          <circle cx="12" cy="12" r="1.2" fill="#4d6b32" />
-        </pattern>
-        <marker
-          id="mowStripArrow"
-          markerWidth="8"
-          markerHeight="8"
-          refX="4"
-          refY="4"
-          orient="auto"
-        >
-          <path d="M1 1 L7 4 L1 7 Z" fill="#5c564c" />
-        </marker>
-      </defs>
+      <text
+        x="36"
+        y="40"
+        fill="#5c564c"
+        fontSize="18"
+        fontFamily="ui-serif, Georgia, serif"
+      >
+        Runners face a small cliff
+      </text>
+      <text
+        x="334"
+        y="78"
+        textAnchor="middle"
+        fill="#5c564c"
+        fontSize="12"
+        fontFamily="ui-sans-serif, system-ui, sans-serif"
+      >
+        Mower wheel
+      </text>
 
       <line
         x1="248"
@@ -180,24 +190,6 @@ export function MowStripDiagram({ className }: MowStripDiagramProps) {
         fontFamily="ui-serif, Georgia, serif"
       >
         Old sidewalk
-      </text>
-      <text
-        x="36"
-        y="44"
-        fill="#5c564c"
-        fontSize="18"
-        fontFamily="ui-serif, Georgia, serif"
-      >
-        Runners face a small cliff
-      </text>
-      <text
-        x="36"
-        y="68"
-        fill="#5c564c"
-        fontSize="13"
-        fontFamily="ui-sans-serif, system-ui, sans-serif"
-      >
-        A flush joint against the old slab is a bridge. Leave the gap.
       </text>
     </svg>
   )

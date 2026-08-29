@@ -15,9 +15,6 @@ export function SiteHeader() {
           <a href="#playbook" className="hover:text-foreground">
             Playbook
           </a>
-          <a href="#v-trench" className="hover:text-foreground">
-            Trench & strip
-          </a>
           <a href="#wipe-why" className="hover:text-foreground">
             The wipe
           </a>
