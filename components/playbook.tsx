@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 
 export function Playbook() {
   const [goal, setGoal] = useState<GoalId>("this-weekend")
-  const [openMethod, setOpenMethod] = useState<MethodId>("wipe")
+  const [openMethod, setOpenMethod] = useState<MethodId>("trench")
 
   const selected = useMemo(
     () => goals.find((item) => item.id === goal) ?? goals[0],
@@ -34,7 +34,9 @@ export function Playbook() {
             There is no product that makes centipede stay in the lawn forever.
             There are methods that turn a two-week chore into a monthly glance,
             or a one-weekend build. Pick a goal. The two methods that fit stay
-            open; the others stay in the list if you want them later.
+            open; the others stay in the list if you want them later. Painting
+            the slab is optional cleanup. Stopping the flood at the lawn edge is
+            the job that actually changes the interval.
           </p>
         </div>
 
@@ -145,7 +147,7 @@ export function Playbook() {
                         href="#wipe-why"
                         className="inline-flex text-sm font-medium text-primary hover:underline"
                       >
-                        Why a sponge instead of pulling them green
+                        Why a wipe is optional — and a rake will not finish the job
                       </a>
                     ) : null}
                     <dl className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">

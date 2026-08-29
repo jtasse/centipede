@@ -13,7 +13,7 @@ export function SiteHeader() {
             Playbook
           </a>
           <a href="#wipe-why" className="hover:text-foreground">
-            Dab it on
+            The wipe
           </a>
           <a href="#banding" className="hover:text-foreground">
             Banding
@@ -33,7 +33,7 @@ export function SiteHeader() {
             href="#wipe-why"
             className="text-sm font-medium text-primary hover:underline"
           >
-            Dab it on
+            The wipe
           </a>
           <a
             href="#tape"

@@ -16,7 +16,7 @@ export function WhatIsPgr() {
             Grass makes a hormone called{" "}
             <strong className="text-foreground font-medium">gibberellin</strong>{" "}
             (gibberellic acid, GA). That hormone tells cells to get longer.
-            Longer cells are how a centipede stolon walks across a sidewalk in
+            Longer cells are how a centipede runner walks across a sidewalk in
             two weeks.
           </p>
           <p className="leading-7 text-muted-foreground">
@@ -56,7 +56,7 @@ export function WhatIsPgr() {
             <h3 className="font-heading mt-2 text-2xl">Systemic herbicide</h3>
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
               Shuts down an enzyme plants need to make protein. The plant
-              starves. That is why it belongs on stolons already sitting on
+              starves. That is why it belongs on runners already sitting on
               concrete — and why a mist into the lawn becomes a brown strip.
             </p>
           </article>

@@ -28,7 +28,7 @@ export function WhatBandingMeans() {
             is not Roundup. It does not kill the turf. The grass absorbs it, and
             those six inches stop stretching for roughly 8–12 weeks. The lawn
             stays, often a little darker. You still have to clear whatever is
-            already on the concrete first — trim it, or{" "}
+            already on the concrete first — trim it, pull it, or{" "}
             <a href="#wipe-why" className="font-medium text-primary hover:underline">
               dab Roundup onto it
             </a>

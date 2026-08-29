@@ -18,7 +18,7 @@ export function WhyNotJustRoundup() {
               Glyphosate is systemic.
             </strong>{" "}
             It moves through living tissue. Centipede is a net of connected
-            stolons. Spray the grass in front of the tape and the chemical can
+            runners. Spray the grass in front of the tape and the chemical can
             still walk the plumbing into the turf you covered. Painter’s tape
             blocks droplets the way it blocks paint. It does not install a valve
             in the stem.
@@ -52,7 +52,7 @@ export function WhyNotJustRoundup() {
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
               If you Roundup the same 6-inch ribbon a growth regulator would
               slow, you have not substituted products. You have made a wound.
-              The turf browns. Weeds move into the dead soil. New stolons grow
+              The turf browns. Weeds move into the dead soil. New runners grow
               in from behind and you spray again. Some landscape crews call that
               chemical edging and live with a brown line. It is a different look
               and a different chore — closer to the two-week fight you already
@@ -61,16 +61,18 @@ export function WhyNotJustRoundup() {
           </article>
           <article className="rounded-2xl bg-card p-5 ring-1 ring-foreground/10 sm:p-6">
             <h3 className="font-heading text-2xl">
-              Roundup still has a job: the slab
+              Roundup’s only job here is the slab — and even that is optional
             </h3>
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
-              Dab only what is already on the sidewalk. You are not doing that
-              so yellow grass is prettier to pull.{" "}
+              Dab only what is already on the sidewalk — if you bother. A wipe
+              can stop those runners from getting longer. It will not unglue most
+              of them from broom-finished concrete, and it will not stop the lawn
+              from sending more.{" "}
               <a href="#wipe-why" className="font-medium text-primary hover:underline">
-                Kill the nodes, then rake once
-              </a>
-              . Stay 1–2 inches off the living edge, and prefer a sponge, a
-              foam roller, or a shield over a misting sprayer.
+                The wipe is optional. A rake will not finish the job.
+              </a>{" "}
+              Stay 1–2 inches off the living edge, and prefer a sponge, a foam
+              roller, or a shield over a misting sprayer.
             </p>
           </article>
         </div>

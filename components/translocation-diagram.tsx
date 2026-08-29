@@ -8,7 +8,7 @@ export function TranslocationDiagram({ className }: TranslocationDiagramProps) {
       viewBox="0 0 720 280"
       role="img"
       className={className}
-      aria-label="A centipede stolon running from lawn, under a strip of tape, onto the sidewalk. An arrow shows glyphosate moving through the stem into the taped lawn."
+      aria-label="A centipede runner running from lawn, under a strip of tape, onto the sidewalk. An arrow shows glyphosate moving through the stem into the taped lawn."
     >
       <rect width="720" height="280" fill="#efe6d2" />
       <rect x="0" y="0" width="280" height="280" fill="#6a8a3e" />
@@ -118,7 +118,7 @@ export function TranslocationDiagram({ className }: TranslocationDiagramProps) {
         fontSize="13"
         fontFamily="ui-sans-serif, system-ui, sans-serif"
       >
-        Tape stops droplets. It does not cut the stolon.
+        Tape stops droplets. It does not cut the runner.
       </text>
     </svg>
   )

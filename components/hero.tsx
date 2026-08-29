@@ -13,12 +13,16 @@ export function Hero() {
             You are not bad at edging. The grass is crawling.
           </h1>
           <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg">
-            Centipede does not grow <em>up</em> onto the sidewalk. Surface
-            stolons walk over it, root in the joints, and do it again in about
-            two weeks. A trimmer, a pretty edge, and Saturday on your knees all
-            lose to that habit. The fix is an air gap, Roundup dabbed onto the
-            runners sitting on the slab, a 6-inch growth-regulator strip — or a
-            raised edge you mow against.
+            Centipede does not grow <em>up</em> onto the sidewalk. It sends
+            surface runners — botanists call them stolons — walking out over the
+            slab. For every one that actually roots in a joint, you will see ten
+            or twenty that just lie there. The two-week fight is the flood of
+            runners, not a sidewalk full of new plants. A trimmer, a pretty
+            edge, and Saturday on your knees all lose to that volume. The real
+            work is stopping them at the lawn edge: an air gap, a 6-inch
+            growth-regulator strip, or a raised edge you mow against. Painting
+            Roundup onto what is already on the slab is optional. It does not
+            unglue the stuck ones, and it does not stop the next wave.
           </p>
           <div className="flex flex-wrap gap-3">
             <a
@@ -37,7 +41,7 @@ export function Hero() {
           <dl className="grid max-w-xl grid-cols-3 gap-3 pt-2 text-sm">
             <div className="rounded-xl bg-card/80 p-3 ring-1 ring-foreground/8">
               <dt className="text-muted-foreground">Spreads by</dt>
-              <dd className="font-heading mt-1 text-lg">Surface stolons</dd>
+              <dd className="font-heading mt-1 text-lg">Surface runners</dd>
             </div>
             <div className="rounded-xl bg-card/80 p-3 ring-1 ring-foreground/8">
               <dt className="text-muted-foreground">Peak crawl</dt>
@@ -54,9 +58,9 @@ export function Hero() {
             <StolonDiagram variant="crawl" className="h-auto w-full" />
           </figure>
           <p className="px-1 text-sm text-muted-foreground">
-            Those little “legs” on a centipede runner are nodes. If a node sits
-            on concrete long enough, it roots. Cutting the blades does not
-            remove the nodes.
+            Those little “legs” on a centipede runner are nodes. Most runners
+            just crawl over the slab. A few take in a joint. Either way, cutting
+            the blades does not stop the lawn from sending more.
           </p>
         </div>
       </div>

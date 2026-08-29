@@ -24,23 +24,23 @@ export const methods: Method[] = [
     id: "trench",
     number: "01",
     name: "Cut a V-trench",
-    headline: "Give the stolons an air gap they cannot cross.",
+    headline: "Give the runners an air gap they cannot cross.",
     time: "2–3 hours the first time, then about 20 minutes",
     cadence: "2–3 times per growing season",
     chemicals: false,
     permanence: "season",
     effort: "medium",
     bestFor: "Anyone who wants to stop the two-week cycle without spraying",
-    why: "Centipede spreads on the surface. A 3–4 inch V-cut against the concrete severs the runners and leaves a gap of bare soil. When a stolon hits air, it stops. A string trimmer never makes that gap — it only shears the leaves, so the same runners crawl back in days.",
+    why: "Centipede spreads on the surface. A 3–4 inch V-cut against the concrete severs the runners and leaves a gap of bare soil. When a runner hits air, it stops. A string trimmer never makes that gap — it only shears the leaves, so the same runners crawl back in days. This is the work that actually changes the two-week interval: fewer runners ever reach the slab.",
     steps: [
       "Wait until the soil is soft after a rain. Dry clay will fight you and crumble the edge.",
       "Use a half-moon edger or a wheeled blade edger, not a string trimmer. Walk the hardscape and cut a vertical face flush with the concrete.",
       "Carve the soil away from that face into a shallow V, 3–4 inches deep and 2–3 inches wide. You should see a clean concrete sidewall.",
-      "Pull the severed stolons off the slab and out of the trench. Nodes left on concrete will root again.",
+      "Pull the severed runners off the slab and out of the trench. Most of them were just sitting on the concrete. A few may try to take in a joint or a film of soil.",
       "Recut the same line two or three times between April and September. The first cut is the hard one. Maintenance is a short walk with the edger.",
     ],
     watchouts: [
-      "A shallow scrape is not a trench. If you can still see stolons bridging the gap, go deeper.",
+      "A shallow scrape is not a trench. If you can still see runners bridging the gap, go deeper.",
       "Do not fill the trench with mulch or gravel. That becomes a rooting bed.",
       "Keep the lawn side at mowing height so the mower deck does not scalp the new lip.",
     ],
@@ -56,31 +56,32 @@ export const methods: Method[] = [
     number: "02",
     name: "Paint the runners on the slab",
     headline:
-      "Dab glyphosate with a sponge or roller — not a mist. Landscapers call this a wipe.",
-    time: "10–20 minutes",
-    cadence: "Monthly in peak summer, then as needed",
+      "Optional: dab glyphosate with a sponge or roller — not a mist. A rake will not finish the pickup.",
+    time: "10–20 minutes to paint — then you may still pick",
+    cadence: "Only if you want it. Monthly in peak summer if you do.",
     chemicals: true,
     permanence: "season",
     effort: "low",
-    bestFor: "Fastest relief when the sidewalk is already covered",
-    why: "Hand-pulling works, which is why you have been doing it, but you are racing summer elongation. A wipe is not a brand and not a special tool. Put glyphosate — Roundup or a generic — on a sponge, a wick bottle, or a small foam roller, then dab it onto the grass already sitting on the sidewalk. You are wetting the runners by contact, like painting a fence, not spraying a mist into the air. That hits the same stolons in minutes. You are not doing this so yellow grass is nicer to pull. You are killing the nodes so they stop rooting in the joints. After they bleach, a rake takes the thatch in one pass. Live stolons fight, snap, and leave nodes behind.",
+    bestFor: "Stopping live runners on the slab from getting longer — not as a substitute for pulling",
+    why: "A wipe is not a brand and not a special tool. Put glyphosate — Roundup or a generic — on a sponge, a wick bottle, or a small foam roller, then dab it onto the grass already sitting on the sidewalk. You are wetting the runners by contact, like painting a fence, not spraying a mist into the air. Do not expect a rake to finish the job. Dead centipede on broom-finished concrete often still clings. Nodes that pressed into texture, an expansion joint, or a film of soil do not always come off in one pass. A rake or blower helps with the loose thatch. The stuck ones are still a pick-off. Glyphosate does not unglue them. If Saturday is already walk-the-slab-and-pull, wiping first may only save the ones that bleach and let go — not the majority. Modest remaining reasons, none of them a slam dunk: a killed runner stops lengthening while a live one still attached to the lawn keeps going; the chemical can move a short way back along a connected runner (stay off the living edge); dead tissue is sometimes more brittle. Joint-rooted plants are extra-annoying when they happen. They are not most of the mess. If pulling is the bottleneck, skip the chemical on the slab and spend the time on a V-trench, a 6-inch growth-regulator strip, or a raised mow strip. The wipe is optional. Stopping the flood is the main trick.",
     steps: [
       "Mow or trim so you can see the line where lawn meets concrete.",
       "Use a ready-to-use glyphosate product, or mix a concentrate exactly as that product’s label directs. Do not improvise a stronger mix.",
       "Load a sponge-on-a-stick, wick applicator, or 4-inch foam roller. You want the chemical on the grass, not floating in the air.",
       "Dab only runners and blades that are on the sidewalk or driveway. Stay 1–2 inches off living turf.",
-      "Keep people and pets off the treated slab until it is dry. Wait a few days. Do not kneel and tease them while they are still green — let them yellow, then rake, sweep, or blow the thatch so leftover nodes are not still alive in the joint.",
+      "Keep people and pets off the treated slab until it is dry. Wait a few days. Rake, sweep, or blow the loose thatch. Plan to pick the ones that still cling — that is normal, not a failed wipe.",
     ],
     watchouts: [
-      "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a stolon still attached to the lawn. Keep the sponge on the slab.",
+      "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a runner still attached to the lawn. Keep the sponge on the slab.",
       "Centipede is sensitive. Drift onto the lawn is how a tidy edge becomes a dead strip.",
+      "A rake is not a magic cleanup. Broom-finished concrete holds dead runners. Expect a pick-off for the stuck ones.",
       "Read the current label for rainfast times, mix rates, and personal protective equipment. This page is not a substitute for the label.",
     ],
     tools: [
       "Glyphosate product labeled for this use",
       "Sponge bottle, wick wand, or small foam roller",
       "Gloves and eye protection as the label requires",
-      "Rake for dead runners",
+      "Rake or blower for loose thatch, plus a bucket for the stuck ones",
     ],
   },
   {
@@ -96,7 +97,7 @@ export const methods: Method[] = [
     bestFor: "Long sidewalks and driveways where trimming is the real chore",
     why: "“Banding” is landscaper shorthand for wetting a 6-inch strip of living turf next to the hardscape — not treating the whole yard, and not coating the sidewalk. Products such as Edgeless (flurprimidol + trinexapac-ethyl) are labeled for that strip on centipedegrass. They are absorbed by leaves, stems, and (for flurprimidol) roots, then block the hormone that makes stems elongate. The grass stays green. It just stops racing over the slab. Rain that washes overspray off the concrete is wasted product, not a chemical barrier. Trim first, then spray the ribbon. Repeat every 8–12 weeks while it is growing — typically two or three times from spring green-up through early fall — and stop at least four weeks before dormancy.",
     steps: [
-      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete — dab glyphosate on those runners with a sponge.",
+      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete — pull it, or dab glyphosate on those runners with a sponge if you want to stop them lengthening.",
       "Apply only to actively growing, unstressed centipede. Skip it during drought, disease, or right after sodding. Start after spring green-up, not before.",
       "Spray a 6-inch ribbon of grass along the hardscape with a single-nozzle sprayer, following the product label for centipedegrass rates and calibration. Aim at turf, not the slab.",
       "Keep spray off beds, shrubs, and vegetable gardens. A marking dye helps you see the strip and avoid drift.",
@@ -108,7 +109,7 @@ export const methods: Method[] = [
       "Homeowner quantities are tiny. Measuring milliliters for a few hundred feet of edge is normal — do not ‘round up’ the concentrate.",
       "Treated turf may look darker for several weeks. That is expected, not damage.",
       "The Edgeless Concentrate yearly maximum is 350 fl oz per acre (8 fl oz per 1,000 sq ft). Do not add extra passes to ‘make it last.’",
-      "This is a professional-style product. If you cannot follow the label’s sprayer calibration, hire a lawn service to spray the 6-inch strip, or use the trench and a sponge on the slab instead.",
+      "This is a professional-style product. If you cannot follow the label’s sprayer calibration, hire a lawn service to spray the 6-inch strip, or use the trench instead.",
     ],
     tools: [
       "Turf growth regulator labeled for a 6-inch edging strip (e.g. Edgeless)",
@@ -128,18 +129,18 @@ export const methods: Method[] = [
     permanence: "years",
     effort: "high",
     bestFor: "The stretches you are tired of forever — driveway apron, front walk",
-    why: "Flush plastic edging does almost nothing. Centipede stolons climb a 2-inch wall and keep going. A mow strip that sits 1–2 inches above lawn grade, 4–6 inches wide, gives the mower a hard wheel path and the stolons a cliff. Leave a finger-width gap or a maintained V against the old slab so runners still cannot bridge.",
+    why: "Flush plastic edging does almost nothing. Centipede runners climb a 2-inch wall and keep going. A mow strip that sits 1–2 inches above lawn grade, 4–6 inches wide, gives the mower a hard wheel path and the runners a cliff. Leave a finger-width gap or a maintained V against the old slab so runners still cannot bridge.",
     steps: [
       "Kill or peel back a 6–8 inch ribbon of turf along the hardscape. Let it die or sod-cut it out.",
       "Set steel, brick, or a poured concrete ribbon so the top is 1–2 inches above the finished lawn height.",
       "Keep a small air gap between the new strip and the old concrete, or cut a V on the lawn side. A flush joint is a bridge.",
-      "Backfill and compact. Do not leave a soil ramp the stolons can walk up.",
-      "Mow with one wheel on the strip. Dab glyphosate on anything that still tries to climb.",
+      "Backfill and compact. Do not leave a soil ramp the runners can walk up.",
+      "Mow with one wheel on the strip. Pick anything that still tries to climb, or dab it if you want to stop it lengthening.",
     ],
     watchouts: [
-      "Loose gravel next to the lawn is a trap. Stolons root in it and you will be weeding rock instead of grass.",
+      "Loose gravel next to the lawn is a trap. Runners root in it and you will be weeding rock instead of grass.",
       "Thin plastic edging installed flush with the soil is usually overgrown by midsummer.",
-      "Do not bury landscape fabric as your only barrier. Stolons travel on top of it.",
+      "Do not bury landscape fabric as your only barrier. Runners travel on top of it.",
     ],
     tools: [
       "Steel landscape edging, brick, or bagged concrete",
@@ -160,10 +161,10 @@ export const goals: {
   {
     id: "this-weekend",
     label: "I need the sidewalk back this weekend",
-    blurb: "Paint the runners on the slab, then cut a real trench so it cannot walk right back.",
-    recommended: ["wipe", "trench"],
+    blurb: "Cut a real trench so the lawn cannot walk right back. Painting the slab is optional cleanup.",
+    recommended: ["trench", "wipe"],
     firstMove:
-      "Dab the runners today with a sponge or roller. Cut the V-trench as soon as the soil is soft. That pairing ends the two-week panic without waiting on a product shipment.",
+      "Cut the V-trench as soon as the soil is soft — that is what stops the next wave. If you still want to paint the runners already on the slab, a sponge or roller will stop them from lengthening, but do not expect a rake to finish the pick-off.",
   },
   {
     id: "no-chem",
@@ -176,10 +177,10 @@ export const goals: {
   {
     id: "least-work",
     label: "Least work all summer",
-    blurb: "Spray a 6-inch growth-regulator strip, then dab stragglers on the concrete about once a month.",
+    blurb: "Spray a 6-inch growth-regulator strip so fewer runners ever reach the slab.",
     recommended: ["pgr", "wipe"],
     firstMove:
-      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator on the grass along the concrete — not on the slab. Plan on 8–12 weeks, then another pass. Keep a sponge or wick bottle by the garage for the few stolons that still hop the slab in July and August.",
+      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator on the grass along the concrete — not on the slab. Plan on 8–12 weeks, then another pass. Keep a bucket for the few runners that still hop the slab in July and August. A sponge is optional; pulling, or a rake plus a pick, is still the Saturday job if they made it onto the concrete.",
   },
   {
     id: "permanent",
@@ -194,15 +195,15 @@ export const goals: {
 export const failReasons = [
   {
     title: "The edger never finished the job",
-    body: "A blade cut makes a pretty line for a few days. Centipede does not need a gap in the blades. It needs a gap in the soil. Stolons hop a shallow cut the way a vine hops a fence.",
+    body: "A blade cut makes a pretty line for a few days. Centipede does not need a gap in the blades. It needs a gap in the soil. Runners hop a shallow cut the way a vine hops a fence.",
   },
   {
     title: "A string trimmer shears leaves, not runners",
-    body: "The growing points sit at the nodes on those surface stolons. Whacking the green off the slab leaves the stems in the expansion joint. They root, then sprint.",
+    body: "The growing points sit at the nodes on those surface runners. Whacking the green off the slab harvests this week’s crop. The lawn is still attached and still sending more. The ones in an expansion joint that actually root are extra-annoying when they happen — they are not most of what you are picking.",
   },
   {
     title: "Hand pulling works — that is the trap",
-    body: "You can win any given Saturday. In the Southeast, peak elongation from June through August puts the same work back on the calendar in about two weeks. You are not bad at this. The interval is the problem.",
+    body: "You can win any given Saturday. In the Southeast, peak elongation from June through August puts the same work back on the calendar in about two weeks. You are not bad at this. The interval is the problem, and the problem is volume: how many runners the lawn sends onto the hardscape.",
   },
 ]
 
@@ -235,25 +236,25 @@ export const months = [
     id: 5,
     name: "May",
     title: "Runners wake up",
-    body: "Dab glyphosate on anything already on concrete. Recut the trench if spring rains slumped it.",
+    body: "Pull what’s already on the concrete, or dab it if you want. Recut the trench if spring rains slumped it.",
   },
   {
     id: 6,
     name: "Jun",
     title: "Peak season starts",
-    body: "This is where the two-week cycle begins. A monthly sponge pass and a maintained trench beat heroic pulling. If April was the first growth-regulator pass, the 8–12 week reapply window is opening.",
+    body: "This is where the two-week cycle begins. A maintained trench and a 6-inch growth-regulator strip beat heroic pulling. If April was the first growth-regulator pass, the 8–12 week reapply window is opening. A sponge pass on the slab is optional — you may still pick the stuck ones.",
   },
   {
     id: 7,
     name: "Jul",
     title: "Peak",
-    body: "Heat plus moisture equals stolon speed. Do not add nitrogen. Keep the air gap open.",
+    body: "Heat plus moisture equals runner speed. Do not add nitrogen. Keep the air gap open.",
   },
   {
     id: 8,
     name: "Aug",
     title: "Still peak",
-    body: "If you are exhausted, you are on schedule for untreated centipede. Paint the slab and recut the trench now. Spray a 6-inch growth-regulator strip if the grass is not drought-stressed.",
+    body: "If you are exhausted, you are on schedule for untreated centipede. Recut the trench now. Spray a 6-inch growth-regulator strip if the grass is not drought-stressed. Painting the slab is optional cleanup.",
   },
   {
     id: 9,
@@ -265,7 +266,7 @@ export const months = [
     id: 10,
     name: "Oct",
     title: "Slowing",
-    body: "One last trench. Rake dead thatch off the slab so winter does not glue it into the joints.",
+    body: "One last trench. Rake or pick dead thatch off the slab so winter does not glue it down.",
   },
   {
     id: 11,
@@ -284,7 +285,7 @@ export const months = [
 export const fertilityNotes = [
   {
     title: "Nitrogen feeds the crawl",
-    body: "Centipede wants about 1 pound of nitrogen per 1,000 square feet per year, often less on older lawns. Extra N makes stolons ride above the soil. Those elevated runners are exactly what walk onto concrete.",
+    body: "Centipede wants about 1 pound of nitrogen per 1,000 square feet per year, often less on older lawns. Extra N makes runners ride above the soil. Those elevated runners are exactly what walk onto concrete.",
   },
   {
     title: "Yellow is often iron, not hunger",
@@ -292,7 +293,7 @@ export const fertilityNotes = [
   },
   {
     title: "Water the lawn, not the slab",
-    body: "A rotor that soaks the driveway keeps edge nodes alive. Shift heads so the last 6 inches of turf are the wet edge, not the concrete.",
+    body: "A rotor that soaks the driveway keeps edge runners alive. Shift heads so the last 6 inches of turf are the wet edge, not the concrete.",
   },
 ]
 
@@ -324,7 +325,7 @@ export const pgrVsGlyphosate = [
     regulator:
       "Into the grass you sprayed. Not a residue coating on the sidewalk.",
     glyphosate:
-      "Into the stolons you paint on the slab. Also not a pavement residual.",
+      "Into the runners you paint on the slab. Also not a pavement residual.",
   },
   {
     label: "How long it lasts",
@@ -354,7 +355,7 @@ export const pgrActives = [
 ]
 
 export const donts = [
-  "Do not use a gravel ribbon as the only barrier. Stolons root in gravel and you will be weeding rock.",
+  "Do not use a gravel ribbon as the only barrier. Runners root in gravel and you will be weeding rock.",
   "Do not install thin plastic edging flush with the soil and walk away. Centipede will be over it by July.",
   "Do not spray glyphosate into the lawn to ‘make a wider edge.’ You will own a brown strip until it fills from behind.",
   "Do not overseed the edge with rye in fall if you are also trying to keep a clean winter line — the rye hides the problem until April.",

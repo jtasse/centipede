@@ -8,7 +8,7 @@ export function InternodeDiagram({ className }: InternodeDiagramProps) {
       viewBox="0 0 720 300"
       role="img"
       className={className}
-      aria-label="Two centipede stolons: untreated with long stretches between nodes crawling onto concrete, and treated with short internodes that stay in the lawn."
+      aria-label="Two centipede runners: untreated with long stretches between nodes crawling onto concrete, and treated with short internodes that stay in the lawn."
     >
       <rect width="720" height="300" fill="#efe6d2" />
       <rect x="400" y="0" width="320" height="300" fill="#b7b1a6" />

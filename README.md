@@ -2,14 +2,14 @@
 
 A field guide for the two-week fight with **centipedegrass** along sidewalks and driveways.
 
-Centipede does not grow up onto the slab. Surface stolons crawl over it, root in the joints, and come back in about fourteen days. Edging, a string trimmer, and hand pulling all shear the same runners without stopping that habit.
+Centipede does not grow up onto the slab. It sends surface runners — botanists call them stolons — walking out over the concrete. A few root in the joints; most just sit there. They come back in about fourteen days because the lawn keeps sending more. Edging, a string trimmer, and hand pulling all shear the same runners without stopping that habit.
 
 This app walks through the methods that change the interval:
 
 1. A **V-trench** air gap
-2. **Glyphosate dabbed onto the runners on the concrete** (a sponge, foam roller, or wick — landscapers call this a wipe; it is not a spray)
-3. A **6-inch growth-regulator strip** (landscapers call this “banding”; ~8–12 weeks)
-4. A **raised mow strip**
+2. A **6-inch growth-regulator strip** (landscapers call this “banding”; ~8–12 weeks)
+3. A **raised mow strip**
+4. **Optional: glyphosate dabbed onto the runners on the concrete** (a sponge, foam roller, or wick — landscapers call this a wipe; it is not a spray). A rake will not always finish the pickup.
 
 Plus a comparison of growth regulators vs Roundup, why painter’s tape cannot replace a PGR band, a Southeast season calendar, a linear-feet calculator for labeled Edgeless Concentrate rates on centipede, and a reminder not to over-fertilize the edge.
 

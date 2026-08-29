@@ -25,8 +25,9 @@ export function WhyWipe() {
             <p className="leading-7 text-muted-foreground">
               A pump sprayer throws droplets that drift onto the living lawn and
               brown a strip. A sponge keeps the chemical on the slab. After a
-              few days the runners turn yellow. Then rake, sweep, or blow them
-              off. You are not kneeling to tease live grass.
+              few days the runners turn yellow. That does not mean they will rake
+              off. Dead centipede on broom-finished concrete often still clings.
+              Glyphosate does not unglue them.
             </p>
           </div>
           <figure className="space-y-3">
@@ -68,21 +69,74 @@ export function WhyWipe() {
 
         <div className="mt-14 max-w-3xl space-y-5">
           <h3 className="font-heading text-3xl text-balance sm:text-4xl">
-            You are not killing them so they are easier to pick up.
+            A rake will not finish the job. You may still pick them.
           </h3>
           <p className="leading-7 text-muted-foreground">
-            Yellow is a side effect. The point is the{" "}
-            <strong className="text-foreground font-medium">nodes</strong> —
-            those knuckles on the runner that can root. Pull a live stolon and
-            it usually snaps. The bits left in the expansion joint are still
-            alive. Those leftovers are why the same sidewalk is covered again in
-            about two weeks.
+            Nodes that pressed into broom-finished texture, an expansion joint,
+            or a film of soil do not always come off in one pass — dead or
+            alive. A rake or a blower helps with the loose thatch. The stuck
+            ones are still a pick-off. If your Saturday is already walking the
+            slab and pulling, wiping first may only save the ones that bleach
+            and let go. That is not the majority.
           </p>
           <p className="leading-7 text-muted-foreground">
-            Glyphosate moves into those growing points, including the ones you
-            cannot see in the crack. After a few days the runner lets go of the
-            slab. Then you are not pulling. You are raking, sweeping, or blowing
-            dead thatch. If you wait, you can skip the kneeling entirely.
+            Most of the mess is not plants establishing between slabs. For every
+            runner that actually roots in a joint, you will see ten or twenty
+            that just grow out over the concrete. Extra-annoying when a joint
+            take happens. Not most of the chore. The problem is how many runners
+            the lawn sends onto the hardscape.
+          </p>
+        </div>
+
+        <div className="mt-10 max-w-3xl space-y-5">
+          <h3 className="font-heading text-3xl text-balance sm:text-4xl">
+            If you still have to pick them, why wipe at all?
+          </h3>
+          <p className="leading-7 text-muted-foreground">
+            A few remaining reasons — modest, not gospel:
+          </p>
+          <ul className="space-y-3 text-sm leading-6 text-muted-foreground sm:text-base">
+            <li className="flex gap-3">
+              <span
+                aria-hidden
+                className="mt-2.5 size-1.5 shrink-0 rounded-full bg-accent"
+              />
+              <span>
+                A live runner still attached to the lawn keeps getting longer
+                until you pick it. A killed one stops lengthening.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span
+                aria-hidden
+                className="mt-2.5 size-1.5 shrink-0 rounded-full bg-accent"
+              />
+              <span>
+                Glyphosate can move a short way back along a runner that is
+                still connected to the lawn. Stay an inch or two off the living
+                edge, or you can brown turf.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span
+                aria-hidden
+                className="mt-2.5 size-1.5 shrink-0 rounded-full bg-accent"
+              />
+              <span>
+                Dead tissue is sometimes more brittle, so a few more snap off
+                instead of stretching.
+              </span>
+            </li>
+          </ul>
+          <p className="leading-7 text-muted-foreground">
+            None of these is a slam dunk if the bottleneck is volume on the
+            slab. It is fair to skip the chemical and spend the effort on
+            stopping the flood: a{" "}
+            <a href="#playbook" className="font-medium text-primary hover:underline">
+              V-trench
+            </a>
+            , a 6-inch growth-regulator strip on the living lawn, or a raised
+            mow strip. The wipe is optional. It is not the main trick.
           </p>
         </div>
 
@@ -90,29 +144,29 @@ export function WhyWipe() {
           <div className="hidden border-b border-border bg-muted/60 px-5 py-3 text-xs font-medium tracking-wide text-muted-foreground uppercase sm:grid sm:grid-cols-3">
             <span>Compare</span>
             <span>Pull while green</span>
-            <span>Dab, wait, rake</span>
+            <span>Wipe first</span>
           </div>
           <dl>
             {[
               {
                 label: "What you are fighting",
-                live: "Stems you can grab",
-                wipe: "Nodes that can root, including in the joint",
+                live: "The flood of runners over the slab",
+                wipe: "Same flood. Joint-rooted plants are a small slice.",
               },
               {
-                label: "What gets left behind",
-                live: "Live fragments that restart the crawl",
-                wipe: "Dead thatch that is not a plant anymore",
+                label: "What a rake does",
+                live: "Almost nothing. They are alive and they cling.",
+                wipe: "Loose thatch may come off. The stuck ones often stay.",
               },
               {
                 label: "The Saturday job",
-                live: "Kneel, tease, snap, miss a node, repeat",
-                wipe: "Ten minutes with a sponge now, one rake in a few days",
+                live: "Walk the slab and pull",
+                wipe: "Walk the slab and pull, maybe a few less if they let go",
               },
               {
-                label: "Easier to see?",
-                live: "Green on gray is already visible",
-                wipe: "Yellow helps, but that is not why you dab",
+                label: "Stops the next wave?",
+                live: "No",
+                wipe: "No. That is the trench, the 6-inch strip, and a raised edge",
               },
             ].map((row) => (
               <div
@@ -128,7 +182,7 @@ export function WhyWipe() {
                 </dd>
                 <dd className="mt-2 text-sm leading-6 text-muted-foreground sm:mt-0">
                   <span className="mb-1 block text-xs font-medium tracking-wide text-foreground/70 uppercase sm:hidden">
-                    Dab, wait, rake
+                    Wipe first
                   </span>
                   {row.wipe}
                 </dd>
@@ -138,12 +192,11 @@ export function WhyWipe() {
         </div>
 
         <p className="mt-8 max-w-3xl leading-7 text-muted-foreground">
-          If you are already getting every node out of every joint by hand, skip
-          the chemical. That is also why the job is exhausting. The sponge pass
-          is a substitute for the hard part of pulling, not an extra step before
-          it. New runners will still walk over from the lawn — that is the trench
-          and the growth-regulator strip — but they will not be restarting from
-          leftovers you thought you had pulled.
+          If pulling is already the Saturday, you do not owe the sponge a try.
+          New runners will still walk over from the lawn until you put an air
+          gap, a 6-inch growth-regulator strip, or a raised edge in their way.
+          That is the work that changes the two-week interval. The wipe is a
+          side job, if you want it.
         </p>
       </div>
     </section>

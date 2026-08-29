@@ -53,8 +53,8 @@ export function HoursAndHabits() {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li>V-trench: a hard first afternoon, then three short recuts.</li>
               <li>
-                Sponge on the slab: ten to twenty minutes, about monthly in peak
-                heat.
+                Sponge on the slab: optional, ten to twenty minutes. Expect to
+                still pick the ones that cling.
               </li>
               <li>
                 Growth regulator: two or three walks along a 6-inch strip, then

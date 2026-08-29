@@ -16,10 +16,11 @@ export function WhyItFails() {
           <p className="text-muted-foreground leading-7">
             Clemson notes that centipede only makes surface runners, which is
             why borders are easier than with bermudagrass. Easier is not the
-            same as easy. The stolons still climb a low wall, and research on
+            same as easy. The runners still climb a low wall, and research on
             edging walls found that even a 5 cm barrier does not fully stop
-            them. You need a gap, a kill on the slab, slower growth — or a
-            cliff high enough that they quit.
+            them. You need a gap, slower growth, or a cliff high enough that
+            they quit. Painting what is already on the slab is optional cleanup
+            — it does not stop the flood.
           </p>
           <figure className="overflow-hidden rounded-2xl ring-1 ring-foreground/10">
             <StolonDiagram variant="gap" className="h-auto w-full" />

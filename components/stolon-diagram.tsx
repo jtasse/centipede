@@ -13,8 +13,8 @@ export function StolonDiagram({ variant, className }: StolonDiagramProps) {
       className={className}
       aria-label={
         isGap
-          ? "A V-shaped soil trench beside concrete, stopping centipede stolons at the air gap."
-          : "Centipede stolons crawling from soil onto a sidewalk, with nodes rooting on the slab."
+          ? "A V-shaped soil trench beside concrete, stopping centipede runners at the air gap."
+          : "Centipede runners crawling from soil onto a sidewalk. Most of them just lie on the concrete."
       }
     >
       <rect width="640" height="280" fill="#efe6d2" />
@@ -87,7 +87,7 @@ export function StolonDiagram({ variant, className }: StolonDiagramProps) {
         fontSize="13"
         fontFamily="ui-sans-serif, system-ui, sans-serif"
       >
-        {isGap ? "Air gap — stolons stop here" : "Nodes root on the slab"}
+        {isGap ? "Air gap — runners stop here" : "Runners walk over the slab"}
       </text>
       <text
         x="36"
