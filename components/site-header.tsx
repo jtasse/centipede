@@ -15,18 +15,18 @@ export function SiteHeader() {
           <a href="#banding" className="hover:text-foreground">
             Banding
           </a>
-          <a href="#regulator" className="hover:text-foreground">
-            Not Roundup
+          <a href="#tape" className="hover:text-foreground">
+            Why not Roundup
           </a>
           <a href="#season" className="hover:text-foreground">
             Season
           </a>
         </nav>
         <a
-          href="#regulator"
+          href="#tape"
           className="text-sm font-medium text-primary hover:underline lg:hidden"
         >
-          What’s a PGR?
+          Why not Roundup
         </a>
       </div>
     </header>

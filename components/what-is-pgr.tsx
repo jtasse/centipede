@@ -44,9 +44,9 @@ export function WhatIsPgr() {
             </p>
             <h3 className="font-heading mt-2 text-2xl">Hormone brake</h3>
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
-              Used on the living 6-inch ribbon of lawn next to the concrete.
-              Golf courses use the same chemistry to mow less. At labeled rates
-              the turf should not die.
+              Sprayed on the living 6-inch ribbon of lawn next to the concrete,
+              then absorbed by that grass. Golf courses use the same chemistry
+              to mow less. At labeled rates the turf should not die.
             </p>
           </article>
           <article className="rounded-2xl bg-card p-5 ring-1 ring-foreground/10 sm:p-6">
@@ -61,6 +61,51 @@ export function WhatIsPgr() {
             </p>
           </article>
         </div>
+
+        <aside
+          id="in-the-plant"
+          className="mt-8 rounded-2xl bg-card p-5 ring-1 ring-foreground/10 sm:p-6"
+        >
+          <h3 className="font-heading text-2xl">
+            It does not linger on the sidewalk.
+          </h3>
+          <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
+            You spray the living 6-inch ribbon of grass — not a coating on the
+            slab. Leaves and stems take it up; flurprimidol also moves in
+            through roots. Inside the plant it blocks gibberellin biosynthesis,
+            so internodes stay short. That is the whole trick.
+          </p>
+          <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
+            Rain will wash any overspray off the concrete. That product is
+            wasted. It is not a chemical barrier sitting on the pavement waiting
+            to stop the next runner. Grass already sitting on the slab is a{" "}
+            <a href="#playbook" className="font-medium text-primary hover:underline">
+              glyphosate wipe
+            </a>
+            , not a growth-regulator job.
+          </p>
+          <h3 className="font-heading mt-8 text-2xl">
+            Reapply every 8–12 weeks while it is growing.
+          </h3>
+          <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
+            One labeled pass of Edgeless Concentrate is meant to hold the edge
+            for 8–12 weeks, or as needed to keep growth regulated while turf is
+            actively growing. On Southeast centipede that is typically{" "}
+            <strong className="text-foreground font-medium">
+              two or three applications from spring green-up through early fall
+            </strong>
+            : first after active growth resumes, then again on that 8–12 week
+            interval, and a last pass at least four weeks before dormancy. Skip
+            drought-stressed, diseased, or newly sodded turf.
+          </p>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-muted-foreground">
+            After you spray: no rain or irrigation for at least two hours, until
+            the leaf is dry — then water within 24 hours. Do not mow until after
+            that watering. The label’s yearly maximum is 350 fl oz per acre (8
+            fl oz per 1,000 sq ft). A house-lot ribbon is a tiny fraction of
+            that, but the cap is still the cap.
+          </p>
+        </aside>
 
         <div className="mt-6 overflow-hidden rounded-2xl bg-card ring-1 ring-foreground/10">
           <div className="hidden border-b border-border bg-muted/60 px-5 py-3 text-xs font-medium tracking-wide text-muted-foreground uppercase sm:grid sm:grid-cols-[minmax(0,0.75fr)_minmax(0,1fr)_minmax(0,1fr)]">
@@ -97,7 +142,8 @@ export function WhatIsPgr() {
           <p className="leading-7 text-muted-foreground">
             Edgeless, the product labeled for a 6-inch centipede edge, combines
             both of the common Type II regulators. They hit gibberellin at two
-            different steps, which is why one pass can last 8–12 weeks.
+            different steps inside the plant, which is why one pass can last
+            8–12 weeks — in the grass, not as a film on the concrete.
           </p>
         </div>
         <ul className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -117,9 +163,15 @@ export function WhatIsPgr() {
 
         <p className="mt-8 max-w-3xl text-sm leading-6 text-muted-foreground">
           It is still a pesticide. It does not kill weeds, it is not fertilizer,
-          and it will not erase grass already on the driveway. Follow the
-          current label for mix rates, protective equipment, and when people and
-          pets can go back on the treated strip.
+          and it will not erase grass already on the driveway. It does not sit
+          on the sidewalk as a barrier — it has to enter living turf. Reapply
+          every 8–12 weeks while the grass is growing. Follow the current label
+          for mix rates, protective equipment, and when people and pets can go
+          back on the treated strip.{" "}
+          <a href="#tape" className="font-medium text-primary hover:underline">
+            Why not substitute Roundup
+          </a>
+          .
         </p>
       </div>
     </section>

@@ -127,12 +127,20 @@ export function Playbook() {
                           See what the 6-inch strip looks like
                         </a>
                         <a
-                          href="#regulator"
+                          href="#tape"
                           className="inline-flex text-sm font-medium text-primary hover:underline"
                         >
-                          How a growth regulator differs from Roundup
+                          Why not Roundup the lawn edge with tape
                         </a>
                       </div>
+                    ) : null}
+                    {method.id === "wipe" ? (
+                      <a
+                        href="#tape"
+                        className="inline-flex text-sm font-medium text-primary hover:underline"
+                      >
+                        Why wipe instead of only pulling — and why not tape the lawn
+                      </a>
                     ) : null}
                     <dl className="grid grid-cols-2 gap-3 text-sm sm:grid-cols-3">
                       <div>

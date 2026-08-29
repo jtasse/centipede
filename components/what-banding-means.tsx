@@ -15,22 +15,26 @@ export function WhatBandingMeans() {
           <p className="leading-7 text-muted-foreground">
             <strong className="text-foreground font-medium">Band</strong> is
             just a strip. You walk the sidewalk or driveway with a sprayer and
-            wet only the grass that touches the concrete — about the width of a
-            dollar bill standing on end. Everything behind that ribbon stays
-            dry.
+            wet only the living grass that touches the concrete — about the
+            width of a dollar bill standing on end. You are not painting a
+            chemical onto the slab. Everything behind that ribbon stays dry.
+            Mist that lands on the concrete is wasted product, not a barrier.
           </p>
           <p className="leading-7 text-muted-foreground">
             A{" "}
             <strong className="text-foreground font-medium">
               growth regulator
             </strong>{" "}
-            is not Roundup. It does not kill the turf. It tells those six inches
-            to stop stretching, so stolons do not race onto the slab for roughly
-            8–12 weeks. The grass stays, often a little darker. You still have
-            to trim or wipe whatever is already on the concrete first. This only
-            slows what grows next.{" "}
-            <a href="#regulator" className="font-medium text-primary hover:underline">
-              What is in the bottle, exactly
+            is not Roundup. It does not kill the turf. The grass absorbs it, and
+            those six inches stop stretching for roughly 8–12 weeks. The lawn
+            stays, often a little darker. You still have to trim or{" "}
+            <a href="#playbook" className="font-medium text-primary hover:underline">
+              wipe
+            </a>{" "}
+            whatever is already on the concrete first — that is a glyphosate
+            job, not this one. This only slows what grows next.{" "}
+            <a href="#in-the-plant" className="font-medium text-primary hover:underline">
+              It lives in the plant, not on the sidewalk
             </a>
             .
           </p>
@@ -58,9 +62,11 @@ export function WhatBandingMeans() {
                 3
               </span>
               <span>
-                Use a single-nozzle sprayer aimed at that 6-inch ribbon. Walk a
-                steady pace along every hardscape edge. A marking dye helps you
-                see where you have already been.
+                Use a single-nozzle sprayer aimed at that 6-inch ribbon of grass.
+                Walk a steady pace along every hardscape edge. A marking dye
+                helps you see where you have already been. Let the leaf dry at
+                least two hours, then irrigate or take rain within 24 hours. Do
+                not mow until after that watering.
               </span>
             </li>
             <li className="flex gap-3">
@@ -68,8 +74,9 @@ export function WhatBandingMeans() {
                 4
               </span>
               <span>
-                Repeat on the label interval while the grass is growing. Stop at
-                least four weeks before winter dormancy.
+                Repeat every 8–12 weeks while the grass is growing — typically
+                two or three times from spring green-up through early fall. Stop
+                at least four weeks before winter dormancy.
               </span>
             </li>
           </ol>
@@ -79,9 +86,9 @@ export function WhatBandingMeans() {
             <BandingDiagram className="h-auto w-full" />
           </div>
           <figcaption className="px-1 text-sm text-muted-foreground">
-            You are painting a thin line of slow-growth along the concrete. If
-            the spray fans into the lawn or into a flower bed, you have left the
-            band.
+            You are wetting a thin ribbon of living grass along the concrete —
+            not coating the slab. If the spray fans into the lawn or into a
+            flower bed, you have left the band.
           </figcaption>
         </figure>
       </div>

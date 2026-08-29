@@ -11,7 +11,7 @@ This app walks through the methods that change the interval:
 3. A **6-inch growth-regulator strip** (landscapers call this “banding”; ~8–12 weeks)
 4. A **raised mow strip**
 
-Plus a plain-English comparison of growth regulators vs Roundup (glyphosate), a Southeast season calendar, a linear-feet calculator for labeled Edgeless Concentrate rates on centipede, and a reminder not to over-fertilize the edge.
+Plus a comparison of growth regulators vs Roundup, why painter’s tape cannot replace a PGR band, a Southeast season calendar, a linear-feet calculator for labeled Edgeless Concentrate rates on centipede, and a reminder not to over-fertilize the edge.
 
 Pesticide notes are educational. The product label is the law.
 

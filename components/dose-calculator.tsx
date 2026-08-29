@@ -108,9 +108,13 @@ export function DoseCalculator() {
 
           <p className="mt-5 text-xs leading-5 text-muted-foreground">
             Repeat on the label interval (typically 8–12 weeks) while the grass
-            is actively growing. Last application at least four weeks before
-            dormancy. Do not apply to stressed turf. Not for beds, food plants,
-            or saturated soil.
+            is actively growing — about two or three times from spring green-up
+            through early fall. Last application at least four weeks before
+            dormancy. No rain for two hours, then irrigate within 24 hours; do
+            not mow until after that watering. Yearly maximum 350 fl oz/acre (8
+            fl oz/1,000 sq ft). Do not apply to stressed turf. Not for beds,
+            food plants, or saturated soil. Overspray on concrete is wasted, not
+            a barrier.
           </p>
         </div>
       </div>

@@ -62,7 +62,7 @@ export const methods: Method[] = [
     permanence: "season",
     effort: "low",
     bestFor: "Fastest relief when the sidewalk is already covered",
-    why: "Hand-pulling works, which is why you have been doing it, but you are racing summer elongation. A glyphosate wipe on a sponge, wick bottle, or small paint roller hits the same stolons in minutes. Because you only wet grass sitting on the hardscape, the lawn behind the edge stays green.",
+    why: "Hand-pulling works, which is why you have been doing it, but you are racing summer elongation. A glyphosate wipe on a sponge, wick bottle, or small paint roller hits the same stolons in minutes. You are not wiping so yellow grass is nicer to pull. You are killing the nodes so they stop rooting in the joints. After they bleach, a rake takes the thatch in one pass. Live stolons fight, snap, and leave nodes behind.",
     steps: [
       "Mow or trim so you can see the line where lawn meets concrete.",
       "Use a ready-to-use glyphosate product, or mix a concentrate exactly as that product’s label directs. Do not improvise a stronger mix.",
@@ -71,7 +71,7 @@ export const methods: Method[] = [
       "Keep people and pets off the treated slab until it is dry. Stolons yellow in a few days. Rake the dead thatch off so it cannot hide new nodes.",
     ],
     watchouts: [
-      "A pump sprayer along the lawn edge will brown a ribbon of turf. If you must spray, use a cardboard shield and still prefer a wipe.",
+      "A pump sprayer along the lawn edge will brown a ribbon of turf. Glyphosate is systemic: even a cardboard shield cannot stop chemical that has already entered a stolon still attached to the lawn. Keep the wipe on the slab.",
       "Centipede is sensitive. Drift onto the lawn is how a tidy edge becomes a dead strip.",
       "Read the current label for rainfast times, mix rates, and personal protective equipment. This page is not a substitute for the label.",
     ],
@@ -88,22 +88,25 @@ export const methods: Method[] = [
     name: "Slow the edge with a growth regulator",
     headline: "Spray a 6-inch ribbon along the concrete so the grass stops stretching.",
     time: "20 minutes to spray the edge, after a trim",
-    cadence: "Every 8–12 weeks while the grass is growing",
+    cadence: "Every 8–12 weeks while growing · 2–3 times a Southeast season",
     chemicals: true,
     permanence: "season",
     effort: "low",
     bestFor: "Long sidewalks and driveways where trimming is the real chore",
-    why: "“Banding” is landscaper shorthand for wetting a 6-inch strip of turf next to the hardscape — not treating the whole yard. Products such as Edgeless (flurprimidol + trinexapac-ethyl) are labeled for that strip on centipedegrass. They are growth regulators, not weed killers: they suppress the hormone that makes stems elongate. The grass stays green. It just stops racing over the slab. Trim first, then spray the ribbon. Repeat through the growing season, and stop at least four weeks before dormancy.",
+    why: "“Banding” is landscaper shorthand for wetting a 6-inch strip of living turf next to the hardscape — not treating the whole yard, and not coating the sidewalk. Products such as Edgeless (flurprimidol + trinexapac-ethyl) are labeled for that strip on centipedegrass. They are absorbed by leaves, stems, and (for flurprimidol) roots, then block the hormone that makes stems elongate. The grass stays green. It just stops racing over the slab. Rain that washes overspray off the concrete is wasted product, not a chemical barrier. Trim first, then spray the ribbon. Repeat every 8–12 weeks while it is growing — typically two or three times from spring green-up through early fall — and stop at least four weeks before dormancy.",
     steps: [
-      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete.",
-      "Apply only to actively growing, unstressed centipede. Skip it during drought, disease, or right after sodding.",
-      "Spray a 6-inch ribbon along the hardscape with a single-nozzle sprayer, following the product label for centipedegrass rates and calibration.",
+      "Trim or trench the edge to the line you actually want. A growth regulator does not remove grass that is already on the concrete — that is a glyphosate wipe.",
+      "Apply only to actively growing, unstressed centipede. Skip it during drought, disease, or right after sodding. Start after spring green-up, not before.",
+      "Spray a 6-inch ribbon of grass along the hardscape with a single-nozzle sprayer, following the product label for centipedegrass rates and calibration. Aim at turf, not the slab.",
       "Keep spray off beds, shrubs, and vegetable gardens. A marking dye helps you see the strip and avoid drift.",
-      "Reapply on the label interval, typically 8–12 weeks, as long as the grass is still growing. Do not make a late-fall application.",
+      "Let the leaf dry at least two hours, then irrigate or take rain within 24 hours. Do not mow until after that watering.",
+      "Reapply on the label interval, typically 8–12 weeks, as long as the grass is still growing. Last application at least four weeks before dormancy. Do not stack extra passes past the yearly maximum.",
     ],
     watchouts: [
+      "It does not linger on the sidewalk. Rain washes overspray off the slab. That is not how the product works.",
       "Homeowner quantities are tiny. Measuring milliliters for a few hundred feet of edge is normal — do not ‘round up’ the concentrate.",
       "Treated turf may look darker for several weeks. That is expected, not damage.",
+      "The Edgeless Concentrate yearly maximum is 350 fl oz per acre (8 fl oz per 1,000 sq ft). Do not add extra passes to ‘make it last.’",
       "This is a professional-style product. If you cannot follow the label’s sprayer calibration, hire a lawn service to spray the 6-inch strip, or use the trench and wipe instead.",
     ],
     tools: [
@@ -175,7 +178,7 @@ export const goals: {
     blurb: "Spray a 6-inch growth-regulator strip, then a monthly wipe for stragglers.",
     recommended: ["pgr", "wipe"],
     firstMove:
-      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator along the concrete. Keep a wick bottle by the garage for the few stolons that still hop the slab in July and August.",
+      "Trim to the line you want, then spray a 6-inch ribbon of growth regulator on the grass along the concrete — not on the slab. Plan on 8–12 weeks, then another pass. Keep a wick bottle by the garage for the few stolons that still hop the slab in July and August.",
   },
   {
     id: "permanent",
@@ -225,7 +228,7 @@ export const months = [
     id: 4,
     name: "Apr",
     title: "First real edge",
-    body: "After active growth returns, cut the first V-trench. First 6-inch growth-regulator strip only on unstressed, growing turf.",
+    body: "After active growth returns, cut the first V-trench. First of two or three 6-inch growth-regulator passes, only on unstressed, growing turf — spray the grass, not the slab.",
   },
   {
     id: 5,
@@ -237,7 +240,7 @@ export const months = [
     id: 6,
     name: "Jun",
     title: "Peak season starts",
-    body: "This is where the two-week cycle begins. Monthly wipes and a maintained trench beat heroic pulling.",
+    body: "This is where the two-week cycle begins. Monthly wipes and a maintained trench beat heroic pulling. If April was the first growth-regulator pass, the 8–12 week reapply window is opening.",
   },
   {
     id: 7,
@@ -255,7 +258,7 @@ export const months = [
     id: 9,
     name: "Sep",
     title: "Last push",
-    body: "Still growing. Last growth-regulator application must land at least four weeks before dormancy. Final hardscape work is easier in cooler weather.",
+    body: "Still growing — often the last of two or three growth-regulator passes. That last application must land at least four weeks before dormancy. Final hardscape work is easier in cooler weather.",
   },
   {
     id: 10,
@@ -314,6 +317,20 @@ export const pgrVsGlyphosate = [
     label: "Where it belongs on this job",
     regulator: "A 6-inch living ribbon of lawn next to the concrete",
     glyphosate: "Only grass that is already sitting on the slab",
+  },
+  {
+    label: "Where the chemical goes",
+    regulator:
+      "Into the grass you sprayed. Not a residue coating on the sidewalk.",
+    glyphosate:
+      "Into the stolons you wipe on the slab. Also not a pavement residual.",
+  },
+  {
+    label: "How long it lasts",
+    regulator:
+      "About 8–12 weeks in the plant. Reapply 2–3 times from green-up through early fall.",
+    glyphosate:
+      "Kills what you wipe. Does not slow the lawn behind the edge.",
   },
   {
     label: "Does the lawn stay?",

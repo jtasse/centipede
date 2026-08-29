@@ -23,6 +23,17 @@ export function Season() {
             Alabama, and the Florida panhandle. Shift a few weeks earlier in
             south Georgia, later in the mountains.
           </p>
+          <p className="leading-7 text-muted-foreground">
+            A growth-regulator strip is a two- or three-pass job from spring
+            green-up through early fall, not a sidewalk coating you leave once.
+            First spray after the grass is actively growing and unstressed,
+            again 8–12 weeks later, last pass at least four weeks before
+            dormancy.{" "}
+            <a href="#in-the-plant" className="font-medium text-primary hover:underline">
+              It is in the grass, not on the slab
+            </a>
+            .
+          </p>
         </div>
 
         <div className="mt-8 rounded-2xl bg-primary p-6 text-primary-foreground sm:p-8">
