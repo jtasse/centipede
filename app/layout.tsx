@@ -13,12 +13,14 @@ const instrument = Instrument_Serif({
   variable: "--font-instrument",
 })
 
+const basePath = process.env.PAGES_BASE_PATH ?? ""
+
 export const metadata: Metadata = {
   title: "Stolon Line — Centipede along sidewalks and driveways",
   description:
     "A field guide for stopping centipedegrass from crawling over hardscape every two weeks.",
   icons: {
-    icon: "/favicon.svg",
+    icon: `${basePath}/favicon.svg`,
   },
 }
 
